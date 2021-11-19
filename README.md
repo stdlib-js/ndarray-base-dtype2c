@@ -20,9 +20,9 @@ limitations under the License.
 
 # dtype2c
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Return the C data type associated with a provided [data type][@stdlib/ndarray/dtypes] string.
+> Return the C data type associated with a provided [data type][@stdlib/ndarray/dtypes] value.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -54,7 +54,7 @@ var dtype2c = require( '@stdlib/ndarray-base-dtype2c' );
 
 #### dtype2c( dtype )
 
-Returns the C data type associated with a provided [data type][@stdlib/ndarray/dtypes] string.
+Returns the C data type associated with a provided [data type][@stdlib/ndarray/dtypes] value.
 
 ```javascript
 var out = dtype2c( 'float64' );
@@ -184,8 +184,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-dtype2c/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-dtype2c?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/ndarray-base-dtype2c.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/ndarray-base-dtype2c/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
