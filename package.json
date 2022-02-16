@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-dtype2c",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return the C data type associated with a provided data type value.",
   "license": "Apache-2.0",
   "author": {
