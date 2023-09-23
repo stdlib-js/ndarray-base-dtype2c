@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-dtype2c/tags). For example,
+
+```javascript
 import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@v0.1.0-esm/index.mjs';
 ```
 
@@ -100,7 +105,7 @@ var out = dtype2c( 'foobar' );
 <body>
 <script type="module">
 
-import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@v0.1.0-esm/index.mjs';
+import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@esm/index.mjs';
 
 var dtypes;
 var out;
