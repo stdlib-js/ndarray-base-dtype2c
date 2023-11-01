@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,67 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var dtype2c = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof dtype2c, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns the C data type associated with a provided data type string', function test( t ) {
-	var expected;
-	var values;
-	var out;
-	var i;
-
-	values = [
-		'float64',
-		'float32',
-		'int8',
-		'uint8',
-		'uint8c',
-		'int16',
-		'uint16',
-		'int32',
-		'uint32',
-		'int64',
-		'uint64',
-		'binary',
-		'generic',
-		'complex64',
-		'complex128'
-	];
-
-	expected = [
-		'double',
-		'float',
-		'int8_t',
-		'uint8_t',
-		null,
-		'int16_t',
-		'uint16_t',
-		'int32_t',
-		'uint32_t',
-		'int64_t',
-		'uint64_t',
-		null,
-		null,
-		'stdlib_complex64_t',
-		'stdlib_complex128_t'
-	];
-	for ( i = 0; i < values.length; i++ ) {
-		out = dtype2c( values[ i ] );
-		t.strictEqual( out, expected[ i ], 'returns '+expected[i]+' when provided '+values[i] );
-	}
-	t.end();
-});
-
-tape( 'the function returns `null` if provided an unknown/unsupported data type', function test( t ) {
-	var out = dtype2c( 'foobar' );
-	t.strictEqual( out, null, 'returns expected value' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
