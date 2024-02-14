@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@deno/mod.js';
+import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@v0.2.0-deno/mod.js';
 ```
 
 #### dtype2c( dtype )
@@ -95,7 +95,7 @@ var out = dtype2c( 'foobar' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@deno/mod.js';
+import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@v0.2.0-deno/mod.js';
 
 var dtypes;
 var out;
