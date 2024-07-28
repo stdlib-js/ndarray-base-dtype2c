@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-dtype2c/tags). For example,
+
+```javascript
 import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@v0.2.2-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ var out = dtype2c( 'foobar' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@v0.2.2-deno/mod.js';
+import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@deno/mod.js';
 
 var dtypes = [
     'float64',
