@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-06-28)
+
+<section class="features">
+
+### Features
+
+-   [`787d8da`](https://github.com/stdlib-js/stdlib/commit/787d8da9caf55181afa9e7d198f7622660397b7d) - add half-precision data types
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`787d8da`](https://github.com/stdlib-js/stdlib/commit/787d8da9caf55181afa9e7d198f7622660397b7d) - **feat:** add half-precision data types _(by Athan Reines)_
 -   [`89d16f9`](https://github.com/stdlib-js/stdlib/commit/89d16f95b188c5afb513af630134dd40cdad380b) - **chore:** fix JSON lint errors [(#6466)](https://github.com/stdlib-js/stdlib/pull/6466) _(by Sai Avinash)_
 
 </details>
@@ -36,8 +47,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Sai Avinash
 
 </section>
