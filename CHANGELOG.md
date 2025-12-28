@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-12-28)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c051895`](https://github.com/stdlib-js/stdlib/commit/c0518959311dbcad23153b1610239e6c1213daf7) - **test:** add tests for DataType instances _(by Athan Reines)_
 -   [`787d8da`](https://github.com/stdlib-js/stdlib/commit/787d8da9caf55181afa9e7d198f7622660397b7d) - **feat:** add half-precision data types _(by Athan Reines)_
 -   [`89d16f9`](https://github.com/stdlib-js/stdlib/commit/89d16f95b188c5afb513af630134dd40cdad380b) - **chore:** fix JSON lint errors [(#6466)](https://github.com/stdlib-js/stdlib/pull/6466) _(by Sai Avinash)_
 
