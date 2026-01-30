@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@esm/index.mjs';
+import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@v0.3.0-esm/index.mjs';
 ```
 
 #### dtype2c( dtype )
@@ -100,7 +100,7 @@ var out = dtype2c( 'foobar' );
 <body>
 <script type="module">
 
-import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@esm/index.mjs';
+import dtype2c from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype2c@v0.3.0-esm/index.mjs';
 
 var dtypes = [
     'float64',
